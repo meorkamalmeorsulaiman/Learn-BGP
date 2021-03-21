@@ -3,7 +3,8 @@ This lab explore the fundamentals of Route Reflector and Confederation in BGP to
 
 ## Route Reflector
 Implementing Route Reflector is not a straight-forward method. You need to consider several rules when implementing Route Reflector such as:
-* Update received by Route Reflector
+* Update received by Route Reflector (RR) from non-RR client with be advertise to RR-client.
+* Update received by RR from RR-client will be advertised to non-RR client and RR-client.
 
 
 
